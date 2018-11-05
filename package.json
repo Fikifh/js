@@ -1,0 +1,36 @@
+{
+  "name": "toktok1",
+  "version": "1.0.0",
+  "description": "this is for toktok",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./bin/www"
+  },
+  "author": "toktok",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "dotenv-safe": "^6.1.0",
+    "express": "^4.16.4",
+    "express-validation": "^1.0.2",
+    "express-validator": "^5.3.0",
+    "helmet": "^3.14.0",
+    "http": "0.0.0",
+    "http-status": "^1.2.0",
+    "joi": "^14.0.4",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.1",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.41.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
